@@ -4,6 +4,7 @@ export default {
     nav: [
       { text: "guild", link: "/guild/installation" },
       { text: "vue", link: "/vue/interview/1" },
+      { text: "scheme", link: "/scheme/pc/index" },
     ],
     sidebar: {
       "/vue/": [
@@ -45,11 +46,45 @@ export default {
           ],
         },
         {
-          text: "进阶",
+          text: "性能优化相关",
           items: [
             {
-              text: "xx",
-              link: "/xx",
+              text: "图片相关",
+              link: "/guild/performance/img",
+            },
+          ],
+        },
+        {
+          text: "其他",
+          items: [
+            {
+              text: "git",
+              link: "/guild/git",
+            },
+          ],
+        },
+      ],
+
+      "/scheme/": [
+        {
+          text: "pc端相关",
+          items: [
+            {
+              text: "首页",
+              link: "/scheme/pc/index",
+            },
+          ],
+        },
+        {
+          text: "h5相关",
+          items: [
+            {
+              text: "首页",
+              link: "/scheme/h5/index",
+            },
+            {
+              text: "移动端适配",
+              link: "/scheme/h5/adaptive",
             },
           ],
         },
