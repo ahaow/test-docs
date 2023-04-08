@@ -52,6 +52,10 @@ export default {
               text: "图片相关",
               link: "/guild/performance/img",
             },
+            {
+              text: "http缓存相关",
+              link: "/guild/performance/http-cache",
+            },
           ],
         },
         {
